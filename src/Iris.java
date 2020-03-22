@@ -20,16 +20,4 @@ public class Iris {
     public void setAttribute(String attribute) {
         this.attribute = attribute;
     }
-
-    public void setNumbers(double[] numbers) {
-        this.numbers = numbers;
-    }
-
-    @Override
-    public String toString() {
-        return "Iris{" +
-                "attribute='" + attribute + '\'' +
-                ", numbers=" + Arrays.toString(numbers) +
-                '}';
-    }
 }
